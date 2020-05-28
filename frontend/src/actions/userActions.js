@@ -12,7 +12,7 @@ export const setUsers = users => {
 
 export const createUser = user => {
     return dispatch => 
-        fetch(`http://localhost:3001/users`, {
+        fetch(`https://feeder-backend.herokuapp.com/users`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

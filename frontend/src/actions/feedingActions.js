@@ -12,7 +12,7 @@ export const setFeedings = feedings => {
 
 export const fetchFeedings = () => {
     return dispatch =>
-        fetch("http://localhost:3001/feedings")
+        fetch("https://feeder-backend.herokuapp.com/feedings")
         .then(res => res.json())
         .then(data => {
             dispatch(setFeedings(data))
@@ -21,7 +21,7 @@ export const fetchFeedings = () => {
 
 export const createFeeding = feeding => {
     return dispatch => 
-        fetch("http://localhost:3001/feedings", {
+        fetch("https://feeder-backend.herokuapp.com/feedings", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

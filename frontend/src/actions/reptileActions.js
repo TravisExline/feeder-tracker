@@ -12,7 +12,7 @@ export const addReptile = reptile => {
 
 export const fetchReptiles = () => {
     return dispatch => 
-        fetch("http://localhost:3001/reptiles")
+        fetch("https://feeder-backend.herokuapp.com/reptiles")
         .then(res => res.json())
         .then(data => {
             dispatch(setReptiles(data))
@@ -21,7 +21,7 @@ export const fetchReptiles = () => {
 
 export const createReptile = reptile => {
     return dispatch =>
-        fetch("http://localhost:3001/reptiles", {
+        fetch("https://feeder-backend.herokuapp.com/reptiles", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
