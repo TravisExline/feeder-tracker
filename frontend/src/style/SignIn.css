@@ -37,5 +37,8 @@
 }
 
 .user-form-div {
-    background-image: url('http://geckocare.net/wp-content/uploads/2013/06/iStock_000024927627XSmall.jpg');
+    padding-top: 100px;
+    height: 1000px;
+    background-image: url('https://i.dlpng.com/static/png/3893100-gecko-png-98-images-in-collection-page-2-png-gecko-945_630_preview.webp');
+    background-repeat: no-repeat;
 }
