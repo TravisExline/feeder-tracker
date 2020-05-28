@@ -24,7 +24,7 @@ class UserForm extends React.Component {
 
     render() {
         return(
-            <div>
+            <div className='user-form-div'>
                 <h2 className='user-form-header'>Sign In or Sign Up Below!</h2>
                 <form className='user-form' onSubmit={event => this.handleSubmit(event)}>
                     <input className='username-input' type='text' name='username' placeholder='Enter Your Username' onChange={event => this.handleChange(event)} value={this.props.username} />
