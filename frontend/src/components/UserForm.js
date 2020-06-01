@@ -25,12 +25,14 @@ class UserForm extends React.Component {
     render() {
         return(
             <div className='user-form-div'>
-                <h2 className='user-form-header'>Sign In or Sign Up Below!</h2>
-                <form className='user-form' onSubmit={event => this.handleSubmit(event)}>
-                    <input className='username-input' type='text' name='username' placeholder='Enter Your Username' onChange={event => this.handleChange(event)} value={this.props.username} />
-                    <input className='password-input' type='text' name='password' placeholder='Enter Your Password' onChange={event => this.handleChange(event)} value={this.props.password} />
-                    <input className="submit-user" type='submit' name='submit' />
-                </form>
+                <div className="user-form-background">
+                    <h2 className='user-form-header'>Sign In or Sign Up Below!</h2>
+                    <form className='user-form' onSubmit={event => this.handleSubmit(event)}>
+                        <input className='username-input' type='text' name='username' placeholder='Enter Your Username' onChange={event => this.handleChange(event)} value={this.props.username} />
+                        <input className='password-input' type='text' name='password' placeholder='Enter Your Password' onChange={event => this.handleChange(event)} value={this.props.password} />
+                        <input className="submit-user" type='submit' name='submit' />
+                    </form>
+                </div>
             </div>
         )
     }
