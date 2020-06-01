@@ -30,7 +30,7 @@
 .submit {
     display: grid;
     border-radius: 10px;
-    box-shadow: 2px 2px lightslategray;
+    box-shadow: 2px 2px rgb(3, 63, 18);
     font-size: 25px;
     grid-column: 2 / 3;
     grid-row: 4 / 5;

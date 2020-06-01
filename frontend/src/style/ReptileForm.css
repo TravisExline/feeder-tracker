@@ -37,7 +37,7 @@
 
 .submit-reptile {
     border-radius: 10px;
-    box-shadow: 2px 2px lightslategray;
+    box-shadow: 2px 2px rgb(3, 63, 18);
     display: grid;
     font-size: 30px;
     grid-column: 2 / 3;

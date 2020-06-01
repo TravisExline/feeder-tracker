@@ -33,7 +33,7 @@
     grid-column: 3 / 4;
     grid-row: 3 / 4;
     border-radius: 10px;
-    box-shadow: 2px 2px lightslategray;
+    box-shadow: 2px 2px rgb(3, 63, 18);
 }
 
 .user-form-div {
