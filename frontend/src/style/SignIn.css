@@ -47,6 +47,8 @@
 .user-form-background {
     height: 450px;
     width: 350px;
+    opacity: .8;
     display: inline-block;
-    background-color: rgb(209, 215, 223);
+    border-radius: 10px;
+    background-color: rgb(230, 234, 238);
 }
