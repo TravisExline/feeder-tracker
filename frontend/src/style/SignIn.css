@@ -30,10 +30,17 @@
 .submit-user {
     display: grid;
     font-size: 25px;
+    margin-top: 10px;
     grid-column: 3 / 4;
     grid-row: 3 / 4;
     border-radius: 10px;
     box-shadow: 2px 2px rgb(3, 63, 18);
+    transition-duration: 0.5s;
+}
+
+.submit-user:hover {
+    background-color: rgb(3, 63, 18);
+    color: white;
 }
 
 .user-form-div {
